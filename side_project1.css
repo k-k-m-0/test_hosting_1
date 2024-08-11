@@ -1,0 +1,44 @@
+.login {
+    display: flex;
+    justify-content: flex-end;
+}
+.login button{
+    width: 81px;
+    margin: 7px;
+    height: 50px;
+    margin-top: 50px;
+}
+.texts {
+    float: left;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 1200px;
+}
+.times-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 1200px;
+    margin-bottom: 5px;
+}
+.buttons button{
+    width: 90%;
+    height: 30px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.queue {
+    /* display: flex; */
+    align-self: flex-end;
+    margin-top: 6px;
+    width: fit-content;
+    padding: 2px 5px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
